@@ -38,14 +38,14 @@ function convertMarkdown(str) {
 
 function getFloatingNavItems(resume) {
     var floating_nav_items = [
-        {label: 'About', target: 'about', icon: 'board', requires: 'basics.summary'},
-        {label: 'Work Experience', target: 'work-experience', icon: 'office', requires: 'work'},
-        {label: 'Skills', target: 'skills', icon: 'tools', requires: 'skills'},
-        {label: 'Education', target: 'education', icon: 'graduation-cap', requires: 'education'},
+        {label: 'Présentation', target: 'about', icon: 'board', requires: 'basics.summary'},
+        {label: 'Expérience professionnelle', target: 'work-experience', icon: 'office', requires: 'work'},
+        {label: 'Compétences', target: 'skills', icon: 'tools', requires: 'skills'},
+        {label: 'Diplômes', target: 'education', icon: 'graduation-cap', requires: 'education'},
         {label: 'Awards', target: 'awards', icon: 'trophy', requires: 'awards'},
         {label: 'Volunteer Work', target: 'volunteer-work', icon: 'child', requires: 'volunteer'},
         {label: 'Publications', target: 'publications', icon: 'newspaper', requires: 'publications'},
-        {label: 'Interests', target: 'interests', icon: 'heart', requires: 'interests'},
+        {label: 'Intérêts', target: 'interests', icon: 'heart', requires: 'interests'},
         {label: 'References', target: 'references', icon: 'thumbs-up', requires: 'references'}
     ];
 

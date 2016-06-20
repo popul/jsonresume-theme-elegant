@@ -4,18 +4,18 @@ var moment = require('moment');
 (function(moment) {
     var STRINGS = {
         nodiff: '',
-        year: 'year',
-        years: 'years',
-        month: 'month',
-        months: 'months',
-        day: 'day',
-        days: 'days',
-        hour: 'hour',
-        hours: 'hours',
+        year: 'année',
+        years: 'années',
+        month: 'mois',
+        months: 'mois',
+        day: 'jour',
+        days: 'jours',
+        hour: 'heure',
+        hours: 'heures',
         minute: 'minute',
         minutes: 'minutes',
-        second: 'second',
-        seconds: 'seconds',
+        second: 'seconde',
+        seconds: 'secondes',
         delimiter: ' '
     };
     moment.fn.preciseDiff = function(d2) {
